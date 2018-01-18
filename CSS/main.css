@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "grec";
+  src: url("../Fonts/Optio_0.ttf");
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("../Fonts/caviar_dreams/CaviarDreams_Bold.ttf");
+}
+
+body {
+background-color: #2763b5;
+background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.navBar nav{
+  font-family: "grec";
+
+  background-color: #b5b4c2;
+  background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  padding: 2%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 15%;
+}
+
+.navBar nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  list-style: none;
+  vertical-align: center;
+}
+
+nav a {
+  vertical-align: center;
+  text-decoration: none;
+}
+
+.navBar img {
+    width: 30vw;
+}
+
+h1 {
+  color: red;
+  margin-top: 25%;
+}
+
+.Charleston_filler {
+   background-image: url("../Images/charleston.jpg");
+   height: 90vh;
+   width: 80vw;
+   margin-left: 10vw;
+   display: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: white;
+   text-align: center;
+   background-attachment: fixed;
+   font-family: 'grec';
+   margin-top: 5%;
+}
+
+.Charleston_filler p {
+  word-spacing: 15%;
+  font-size: 2.5em;
+  padding-top: 25%;
+  padding-bottom: 3%;
+}
+
+.bar_1 {
+  margin-top: 5%;
+  width: 80vw;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 2%
+  padding-right: 2%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  font-weight: bold;
+  font-size: 1.3em;
+  /*line-height: 1.8em;*/
+  margin-left: 10vw;
+  font-family: "CaviarDreams";
+  background-image: url(../Images/greek_pita.jpg);
+  background-attachment: fixed;
+  /*background-color: #2763b5;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */*/
+}
+
+.bar_2 {
+  margin-top: 5%;
+  margin-left: 10vw;
+  width: 80vw;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 2%
+  padding-right: 2%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+    text-shadow: black 2px 2px 2px;
+  font-weight: bold;
+  font-size: 1.8em;
+  line-height: 1.8em;
+  margin-left: 10vw;
+  font-family: "CaviarDreams";
+  background-image: url(../Images/gyro_bar_2.jpg);
+  background-attachment: fixed;
+  /*background-color: #2763b5;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */*/
+}
