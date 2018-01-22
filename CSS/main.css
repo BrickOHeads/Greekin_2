@@ -15,6 +15,7 @@ background-image: url("https://www.transparenttextures.com/patterns/tileable-woo
 }
 
 .navBar nav{
+  z-index: 1000;
   font-family: "grec";
 
   background-color: #b5b4c2;
@@ -52,28 +53,68 @@ h1 {
   margin-top: 25%;
 }
 
-.Charleston_filler {
-   background-image: url("../Images/charleston.jpg");
-   height: 90vh;
+.carousel {
+   /*height: 50vh;*/
    width: 80vw;
    margin-left: 10vw;
-   display: center;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-   color: white;
-   text-align: center;
-   background-attachment: fixed;
-   font-family: 'grec';
-   margin-top: 5%;
+   z-index: 1;
+   margin-bottom: 5%;
 }
 
-.Charleston_filler p {
-  word-spacing: 15%;
-  font-size: 2.5em;
-  padding-top: 25%;
-  padding-bottom: 3%;
+.photo_1 h1 {
+  height: 60vh;
+  /*width: 90vw;*/
+  background-image: url("../Images/charleston.jpg");
+  margin-top: 10vw;
+  margin-bottom: 5vh;
+  display: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'grec';
+  color: white;
+  font-size: 3em;
+  text-shadow: black 2px 2px 2px;
+  padding: 5%;
+  word-spacing: 15px;
 }
+
+.photo_2 h1 {
+  height: 70vh;
+  /*width: 90vw;*/
+  background-image: url("../Images/truck.jpg");
+  margin-top: 10vw;
+  display: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'grec';
+  color: white;
+  font-size: 3em;
+  text-shadow: black 5px 5px 5px;
+  padding: 5%;
+  word-spacing: 15px;
+  text-overflow: clip;
+}
+
+.photo_3 h1 {
+  height: 70vh;
+  /*width: 90vw;*/
+  background-image: url("../Images/salad.jpg");
+  margin-top: 10vw;
+  display: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'grec';
+  color: white;
+  font-size: 3em;
+  text-shadow: black 5px 5px 5px;
+  padding: 5%;
+  word-spacing: 15px;
+  text-overflow: clip;
+}
+
 
 .bar_1 {
   margin-top: 5%;
