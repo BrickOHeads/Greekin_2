@@ -12,22 +12,26 @@ body {
 background-color: #2763b5;
 background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+width: 100vw;
+height: 100vh;
 }
 
 .navBar nav{
   z-index: 1000;
   font-family: "grec";
 
-  background-color: #b5b4c2;
+  background-color: #efd4a7;
+  /*background-color: #8d9fbc;*/
   background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   padding: 2%;
   position: fixed;
   overflow: hidden;
   top: 0;
+  left: 0;
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 110vw;
   height: 15%;
 }
 
@@ -51,6 +55,29 @@ nav a {
 h1 {
   color: red;
   margin-top: 25%;
+}
+
+.Charleston_filler {
+  padding-top: 5%;
+  font-family: 'grec';
+  /*padding: 6%;*/
+  width: 101vw;
+  margin-left: -1%;
+  background-image: url("../Images/charleston.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  /*text-align: center;*/
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.Charleston_filler p {
+  word-spacing: .2em;
+  font-size: 4em;
+  padding-top: 7%;
+  padding-left: 3%;
 }
 
 .carousel {
@@ -138,7 +165,7 @@ h1 {
   width: 80vw;
   padding-top: 8%;
   padding-bottom: 8%;
-  padding-left: 2%
+  padding-left: 3%
   padding-right: 2%;
   background-size: cover;
   background-position: center;
