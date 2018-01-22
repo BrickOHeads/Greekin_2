@@ -82,7 +82,7 @@ h1 {
 .photo_2 h1 {
   height: 70vh;
   /*width: 90vw;*/
-  background-image: url("../Images/truck.jpg");
+  background-image: url("../Images/truck.JPG");
   margin-top: 10vw;
   display: center;
   background-size: cover;
