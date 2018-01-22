@@ -115,6 +115,23 @@ h1 {
   text-overflow: clip;
 }
 
+.photo_4 h1 {
+  height: 70vh;
+  /*width: 90vw;*/
+  background-image: url("../Images/greek_pita.jpg");
+  margin-top: 10vw;
+  display: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'grec';
+  color: white;
+  font-size: 3em;
+  text-shadow: black 5px 5px 5px;
+  padding: 5%;
+  word-spacing: 15px;
+  text-overflow: clip;
+}
 
 .bar_1 {
   margin-top: 5%;
@@ -133,7 +150,7 @@ h1 {
   /*line-height: 1.8em;*/
   margin-left: 10vw;
   font-family: "CaviarDreams";
-  background-image: url(../Images/greek_pita.jpg);
+  background-image: url(../Images/hummus.jpg);
   background-attachment: fixed;
   /*background-color: #2763b5;
   background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
@@ -154,8 +171,8 @@ h1 {
   color: white;
     text-shadow: black 2px 2px 2px;
   font-weight: bold;
-  font-size: 1.8em;
-  line-height: 1.8em;
+  font-size: 2em;
+  /*line-height: 1.8em;*/
   margin-left: 10vw;
   font-family: "CaviarDreams";
   background-image: url(../Images/gyro_bar_2.jpg);
